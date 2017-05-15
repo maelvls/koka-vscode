@@ -16,11 +16,23 @@
             "aliases": ["Koka", "koka"],
             "extensions": [".kk"],
             "configuration": "./language-configuration.json"
-        }],
+        },
+        {
+            "id": "kokadoc",
+            "aliases": ["Koka Documentation", "kokadoc"],
+            "extensions": [".kkdoc"],
+            "configuration": "./language-configuration.json"
+        }
+        ],
         "grammars": [{
             "language": "koka",
             "scopeName": "source.koka",
-            "path": "./syntaxes/koka.json"
+            "path": "./syntaxes/koka.tmLanguage"
+        },
+        {
+            "language": "kokadoc",
+            "scopeName": "source.kokadoc",
+            "path": "./syntaxes/kokadoc.tmLanguage"
         }]
     }
 }
