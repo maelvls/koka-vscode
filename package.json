@@ -1,0 +1,26 @@
+{
+    "name": "koka",
+    "displayName": "koka",
+    "description": "Syntax support for Koka language",
+    "version": "0.0.1",
+    "publisher": "maelvalais",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "koka",
+            "aliases": ["Koka", "koka"],
+            "extensions": [".kk"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "koka",
+            "scopeName": "source.koka",
+            "path": "./syntaxes/koka.json"
+        }]
+    }
+}
