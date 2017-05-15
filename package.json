@@ -27,12 +27,12 @@
         "grammars": [{
             "language": "koka",
             "scopeName": "source.koka",
-            "path": "./syntaxes/koka.tmLanguage"
+            "path": "./syntaxes/koka.json"
         },
         {
             "language": "kokadoc",
             "scopeName": "source.kokadoc",
-            "path": "./syntaxes/kokadoc.tmLanguage"
+            "path": "./syntaxes/kokadoc.json"
         }]
     }
 }
