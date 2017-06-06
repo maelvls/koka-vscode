@@ -34,5 +34,13 @@
             "scopeName": "source.kokadoc",
             "path": "./syntaxes/kokadoc.json"
         }]
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "plist": "latest",
+        "watch": "latest"
+    },
+    "scripts": {
+        "build": "watch \"node build.js\" syntaxes/"
     }
 }
