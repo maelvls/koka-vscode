@@ -14,7 +14,7 @@
         "languages": [{
             "id": "koka",
             "aliases": ["Koka", "koka"],
-            "extensions": [".kk"],
+            "extensions": [".kk",".kki"],
             "configuration": "./language-configuration.json"
         },
         {
