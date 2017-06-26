@@ -5,6 +5,7 @@
     "version": "0.0.1",
     "publisher": "maelvalais",
     "repository": "https://github.com/maelvalais/koka-vscode",
+    "icon": "images/koka.svg",
     "engines": {
         "vscode": "^1.10.0"
     },
